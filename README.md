@@ -43,5 +43,5 @@ assert result.score == 100.0
 ---
 
 <div align="center">
-  <sub>Part of the <a href="https://github.com/hummbl-dev">HUMMBL Developer Ecosystem</a>.</sub>
+  <sub>Part of the <a href="https://github.com/hummbl-dev">HUMMBL Developer Ecosystem</a> &bull; Dual-licensed under <a href="LICENSE-APACHE">Apache 2.0</a> and <a href="LICENSE-MIT">MIT</a>.</sub>
 </div>
