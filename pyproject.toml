@@ -12,6 +12,17 @@ license-files = ["LICENSE-APACHE", "LICENSE-MIT"]
 authors = [{ name = "Reuben Bowlby", email = "reuben@hummbl.io" }]
 requires-python = ">=3.10"
 dependencies = []
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+]
 
 [project.scripts]
 agent-eval = "agent_eval_harness.cli:main"
@@ -21,6 +32,10 @@ where = ["."]
 include = ["agent_eval_harness*"]
 exclude = ["assets*", "tests*", "examples*"]
 
+[project.urls]
+Homepage = "https://github.com/hummbl-dev/agent-eval-harness"
+Repository = "https://github.com/hummbl-dev/agent-eval-harness"
+Issues = "https://github.com/hummbl-dev/agent-eval-harness/issues"
 [project.optional-dependencies]
 dev = ["pytest>=7.0"]
 
