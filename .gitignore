@@ -8,3 +8,10 @@ dist/
 build/
 *.egg-info/
 .DS_Store
+
+# Secrets and Keys
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
